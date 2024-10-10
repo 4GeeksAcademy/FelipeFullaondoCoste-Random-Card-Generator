@@ -1,1 +1,57 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+.bg-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: url(assets/img/dusan-kipic-qtD-aRQtMuc-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+
+.card {
+  width: 16rem;
+}
+
+.card-body {
+  font-size: 80px;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.top-left {
+  text-align: start;
+  font-size: 50px;
+}
+
+.bot-right {
+  text-align: end;
+  font-size: 50px;
+}
+
+.heart {
+  color: red;
+}
+
+.diamond {
+  color: red;
+}
+
+.pica {
+  color: black;
+}
+
+.trebol {
+  color: black;
+}
+
+.cardDimensions > label {
+  color: rgb(255, 255, 255);
+  margin: 10px 0 20px 0;
+}
