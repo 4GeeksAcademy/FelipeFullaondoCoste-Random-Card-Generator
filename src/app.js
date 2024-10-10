@@ -36,6 +36,16 @@ window.onload = () => {
     card.className = `card ${palos}`;
   }
 
+  // Cambio de width y height
+
+  function updateCardDimensions() {
+    card.style.width = widthInput.value + "px";
+    card.style.height = heightInput.value + "px";
+  }
+
+  widthInput.addEventListener("input", updateCardDimensions);
+  heightInput.addEventListener("input", updateCardDimensions);
+
   //Eventos click (cambio de carta) y change (cambio de temporizador)
 
   generateButton.addEventListener("click", () => {
